@@ -1,0 +1,75 @@
+ .articleIndex{
+     width:auto;
+     margin:0 30px;
+     padding-top:50px;
+    }
+    .ul{
+    width:95%;
+    margin:0 auto;
+    }
+    .article {
+    width:100%;
+    height:auto;
+    padding: 20px;
+    margin:20px 0;
+    background:#eee;
+    }
+    li.blogTitle{
+    float:left;
+    color: #1982D1;
+    font-size:26px;
+    text-decoration:none;
+    padding:20px 0 0 0px;
+    height:33px;
+    line-height:33px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    font-family:Michroma,'Segoe UI Light','Segoe UI','Segoe UI WP','Microsoft Jhenghei','微软雅黑',sans-serif,Times;
+
+}
+    li.blogTitle:hover{
+    color:orange;
+    cursor: pointer;
+    }
+    .blogTime{
+    float:right;
+    padding:20px 0 0 0px;
+    height:33px;
+    line-height:33px;
+    text-overflow:ellipsis;
+    }
+    i{
+    	color:#8492A6;
+    }
+    li.blogPS{
+    clear:both;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 4px 0 0 0px;
+    }
+    li.blogPS span{
+    padding:0 5px;
+    color:orange;
+    }
+    li.text{
+    padding:7px 0;
+  margin:0;
+  color:#444;
+  font-size:14px;
+  line-height:1.8;
+  font-family:"Microsoft YaHei";
+    }
+    li.lookAll{
+        width:90px;
+        background:#4D4D4D;
+        color:#fff;
+        border-radius:2px;
+        padding:3px;
+    }
+    li.lookAll:hover{
+        transform:scale(1.1,1.1);
+        cursor: pointer;
+    }

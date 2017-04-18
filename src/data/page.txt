@@ -1,0 +1,77 @@
+[{"id":1,
+    "class":"js",
+	"title":"Js原型和继承",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{"id":2,
+    "class":"js",
+	"title":"Js原型和继承1",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":3,
+    "class":"js",
+	"title":"Js原型和继承2",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":4,
+    "class":"html",
+	"title":"Js原型和继承3",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":5,
+    "class":"html",
+	"title":"Js原型和继承4",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":6,
+    "class":"css",
+	"title":"Js原型和继承5",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":7,
+    "class":"css",
+	"title":"Js原型和继承6",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":8,
+    "class":"框架",
+	"title":"Js原型和继承7",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":9,
+    "class":"框架",
+	"title":"Js原型和继承8",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+},{ "id":10,
+    "class":"框架",
+	"title":"Js原型和继承9",
+	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+	"time":"2017/1/1",
+	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。",
+	"allcontent":[{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"},{"h":"prototype和proto"},{"p":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"},{"h":"各种对象的proto"},{"p":"我们自定义的对象，比如var obj={},它是由Object函数创建的，所以obj.__proto__=== Object.prototype。"},{"p":"那么Object.prototype也是对象，但它是个特例，它的它的__proto__指向的是null。"},{"p":"自定义函数function是由Function创建的，它的__proto__指向Function.prototype,当然Funtion也是一种对象，只不过它的__proto__指向它本身。"},{"p":"自定义函数function的prototype相当于自定义对象，即它的__proto__指向的就是Object.prototype。"}]
+}
+
+
+
+
+
+]
