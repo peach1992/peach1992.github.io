@@ -31,7 +31,7 @@ import marked from 'marked'
     getArticleData(){
       var _this=this;
       var articleId=this.$route.params.id;
-      var urlstr='../src/data/'+articleId+'.txt';
+      var urlstr='../src/data/'+articleId+'.md';
       this.$http.get('../src/data/page.txt').then(function(res){
           var id=parseInt(_this.$route.params.id)-1;
           _this.articleAllMsg=res.data[id]
