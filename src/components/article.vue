@@ -29,19 +29,17 @@
     methods:{
     getArticleData(){
       var _this=this;
+      var articleId=this.$route.params.id;
+      var urlstr='../src/data/'+articleId+'.md';
       this.$http.get('../src/data/page.txt').then(function(res){
           var id=parseInt(_this.$route.params.id)-1;
-          var arr=res.data[id].allcontent;
-          var arr2=[]
-          for(let i=0;i<arr.length;i++){
-            if(arr[i].h!=undefined){
-            arr2.push("<h1 class='title' style='font-size:20px;text-align:center;color: #88acdb;line-height:2.5'>"+"---"+arr[i].h+"---"+"</h1>")
-            } 
-            else{arr2.push("<p style='display:block;line-height:1.7;color:#666;padding-bottom:20px'>"+arr[i].p+"</p>")}
-          }
-          _this.article=arr2.join("")
           _this.articleAllMsg=res.data[id]
           _this.loading=false;
+      }).catch(function(e){
+      console.log(e)
+      });
+      this.$http.get(urlstr).then(function(res){
+             _this.article=res.data
       }).catch(function(e){
       console.log(e)
       })
