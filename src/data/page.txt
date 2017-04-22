@@ -1,62 +1,47 @@
 [{"id":1,
     "class":"js",
 	"title":"Js原型和继承",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
+	"time":"2016/1/1",
 	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
 },{"id":2,
-    "class":"js",
-	"title":"Js原型和继承1",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+    "class":"框架",
+	"title":"vue使用时遇到的问题",
+	"time":"2017/3/1",
+	"content":"问题描述：在主页有个链接博客文章的路由，在文章的页面点击路由没有效果。"
 },{ "id":3,
     "class":"js",
-	"title":"Js原型和继承2",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+	"title":"promise",
+	"time":"2016/6/3",
+	"content":"JavaScript 采用回调函数(callback)来处理异步编程。从同步编程到异步回调编程有一个适应的过程，但是如果出现多层回调嵌套，也就是我们常说的厄运的回调金字塔(Pyramid of Doom)，绝对是一种糟糕的编程体验。"
 },{ "id":4,
     "class":"html",
-	"title":"Js原型和继承3",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+	"title":"HTML5 项目常见问题及注意事项",
+	"time":"2016/2/1",
+	"content":"Meta基础知识 H5常见问题"
 },{ "id":5,
-    "class":"html",
-	"title":"Js原型和继承4",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
-},{ "id":6,
     "class":"css",
-	"title":"Js原型和继承5",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+	"title":"css hack",
+	"time":"2016/4/1",
+	"content":"由于不同厂商的流览器或某浏览器的不同版本（如IE6-IE11,Firefox/Safari/Opera/Chrome等），对CSS的支持、解析不一样，导致在不同浏览器的环境中呈现出不一致的页面展现效果。"
+},{ "id":6,
+    "class":"js",
+	"title":"常用的正则基础",
+	"time":"2016/3/1",
+	"content":"常用的正则表达式基础知识"
 },{ "id":7,
     "class":"css",
-	"title":"Js原型和继承6",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+	"title":"块级元素和内联元素",
+	"time":"2016/3/1",
+	"content":"CSS权威指南》中文字显示：任何不是块级元素的可见元素都是内联元素。其表现的特性是“行布局”形式，这里的“行布局”的意思就是说其表现形式始终以行进行显示。"
 },{ "id":8,
-    "class":"框架",
-	"title":"Js原型和继承7",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+    "class":"html",
+	"title":"详解cookie seesionStorage localStorage",
+	"time":"2016/3/1",
+	"content":"Cookie 是小甜饼的意思。顾名思义，cookie 确实非常小，它的大小限制为4KB左右，是网景公司的前雇员 Lou Montulli 在1993年3月的发明。它的主要用途有保存登录信息，比如你登录某个网站市场可以看到“记住密码”，这通常就是通过在 Cookie 中存入一段辨别用户身份的数据来实现的。"
 },{ "id":9,
-    "class":"框架",
-	"title":"Js原型和继承8",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
-},{ "id":10,
-    "class":"框架",
-	"title":"Js原型和继承9",
-	"author_face":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
-	"time":"2017/1/1",
-	"content":"prototype的属性值是一个对象（属性的集合），默认的只有一个叫做constructor的属性，指向这个函数本身。每个对象都有一个__proto__，这个__proto__是一个隐藏的属性，javascript不希望开发者用到这个属性值，有的低版本浏览器甚至不支持这个属性。而且每个对象的__proto__属性，指向创建该对象的函数的prototype。"
+    "class":"js",
+	"title":"一些面试题",
+	"time":"2016/4/1",
+	"content":"一些比较重要的面试题"
 }
 ]

@@ -6,7 +6,7 @@
             <router-link :to="'/article/'+item.id" tag='li' class='blogTitle'>{{item.title}}</router-link>
             <li class="blogTime">
                 <el-tooltip class="item" effect="dark" content="日期" placement="bottom">
-                     <i class="el-icon-document">&nbsp;{{item.time}}</i>
+                     <i class="el-icon-time">&nbsp;{{item.time}}</i>
                 </el-tooltip>
             </li>
             <li class="blogPS">

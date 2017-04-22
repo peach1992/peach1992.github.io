@@ -6,11 +6,13 @@
                 <el-breadcrumb-item >{{articleAllMsg.title}} </el-breadcrumb-item>
               </el-breadcrumb>
         <h3 class="articlesTitle"> {{articleAllMsg.title}} </h3>
-         <div class="timeSet"><i class="el-icon-document">&nbsp;{{articleAllMsg.time}}</i></div>
+         <div class="timeSet"><i class="el-icon-time">&nbsp;{{articleAllMsg.time}}</i></div>
          <div class="articles" v-html='article'></div>
    </div>
 </template>
 <script>
+
+
 import marked from 'marked'
   export default{
     data(){
@@ -40,16 +42,6 @@ import marked from 'marked'
       console.log(e)
       });
       this.$http.get(urlstr).then(function(res){
-          marked.setOptions({
-                renderer: new marked.Renderer(),
-                gfm: true,
-                tables: true,
-                breaks: false,
-                pedantic: false,
-                sanitize: false,
-                smartLists: true,
-                smartypants: false
-              });
              _this.article=marked(res.data)
       }).catch(function(e){
       console.log(e)
@@ -59,6 +51,7 @@ import marked from 'marked'
   }
 </script>
 <style scoped>
+
      .bread{
        font-family:Michroma;
        color:#97a8be;
@@ -94,6 +87,23 @@ import marked from 'marked'
     .articles{
   clear:both;
     }
+
+body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 18px;    line-height: 18px;    color: #737373;  
+    } 
+ p { margin: 9px auto;
+    line-height: 1.7;}
+    h1,h2,h3,h4,h5,h6 {    color: #404040; line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}
+    hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}
+   code, pre { background: #324057;
+    margin: auto;
+    padding: 0.35em 1.5em;
+    overflow: auto;
+    color: #fff;
+    line-height: 1.3rem;}
+    pre code {   
+    font-family:Arial;
+    overflow: auto;
+    padding: 1px 3px;    font-size: 14px; }
 
 </style>
 

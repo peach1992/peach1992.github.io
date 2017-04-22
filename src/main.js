@@ -6,6 +6,7 @@ import Axios from 'axios'
 import "./assets/css/animate.css"
 import "./assets/css/main.css"
 import "./assets/css/reset.css"
+
  // import elemnt-ui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'

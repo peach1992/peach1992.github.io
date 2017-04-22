@@ -31,7 +31,7 @@
         })
         },getFourDiff(){
         let arr=[];
-        for(let i=0;i<10;i++){
+        for(let i=0;i<9;i++){
         let j=Math.floor(Math.random()*10)
         if(arr.indexOf(j)<0)
         arr.push(j);

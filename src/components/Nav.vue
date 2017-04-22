@@ -9,7 +9,7 @@
         <router-link to='/js' tag="div"> <el-menu-item index="2-3">JavaScript</el-menu-item></router-link>
       </el-submenu>
        <el-menu-item index="3"><router-link to='/frame' tag="div">框架</router-link></el-menu-item>
-      <el-menu-item index="4">记录</el-menu-item>
+  
     </el-menu>
   </div>
 </template>
@@ -32,10 +32,11 @@
 <style scoped>
 
   .el-menu-demo{
-  padding-left:100px
+  padding-left:200px;
   }
   .main{
   color:#fff;
   }
+
 
 </style>
